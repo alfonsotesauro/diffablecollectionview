@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <collectionViewItem id="qtg-bZ-Fcb" customClass="ImageItem" customModule="Prova_Icons" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="aUE-pJ-Do9" id="WQS-Zu-xTb"/>
+                <outlet property="view" destination="mnh-33-os5" id="9tj-2Y-yyc"/>
+            </connections>
+        </collectionViewItem>
+        <box boxType="custom" title="Box" titlePosition="noTitle" id="mnh-33-os5">
+            <rect key="frame" x="0.0" y="0.0" width="81" height="81"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <view key="contentView" id="GA7-su-s94">
+                <rect key="frame" x="1" y="1" width="79" height="79"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aUE-pJ-Do9">
+                        <rect key="frame" x="16" y="16" width="47" height="47"/>
+                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="8ZJ-at-cC9"/>
+                    </imageView>
+                    <progressIndicator maxValue="100" displayedWhenStopped="NO" indeterminate="YES" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="qVX-yK-Ky6">
+                        <rect key="frame" x="24" y="24" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="CZ6-gS-Jmj"/>
+                            <constraint firstAttribute="width" constant="32" id="LyL-gL-y8j"/>
+                        </constraints>
+                        <connections>
+                            <binding destination="qtg-bZ-Fcb" name="animate" keyPath="shouldProgressAnimate" id="FNz-rK-uAm"/>
+                        </connections>
+                    </progressIndicator>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aUE-pJ-Do9" firstAttribute="top" secondItem="GA7-su-s94" secondAttribute="top" constant="16" id="1aP-VV-PXf"/>
+                    <constraint firstAttribute="trailing" secondItem="aUE-pJ-Do9" secondAttribute="trailing" constant="16" id="5ae-q4-BdZ"/>
+                    <constraint firstItem="aUE-pJ-Do9" firstAttribute="leading" secondItem="GA7-su-s94" secondAttribute="leading" constant="16" id="NIG-lF-sJx"/>
+                    <constraint firstItem="qVX-yK-Ky6" firstAttribute="centerX" secondItem="GA7-su-s94" secondAttribute="centerX" id="TT9-Sg-KWF"/>
+                    <constraint firstAttribute="bottom" secondItem="aUE-pJ-Do9" secondAttribute="bottom" constant="16" id="YxX-ng-Ege"/>
+                    <constraint firstItem="qVX-yK-Ky6" firstAttribute="centerY" secondItem="GA7-su-s94" secondAttribute="centerY" id="wP4-9M-4DM"/>
+                </constraints>
+            </view>
+            <color key="borderColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+            <color key="fillColor" red="0.33333333333333331" green="0.59215686274509804" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <point key="canvasLocation" x="-167.5" y="303.5"/>
+        </box>
+    </objects>
+</document>

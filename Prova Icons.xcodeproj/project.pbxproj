@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D76A7F0826A903B100102AFE /* ViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D76A7F0726A903B100102AFE /* ViewController+Utilities.m */; };
+		D7BAAC8226A770E600BF8037 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BAAC8126A770E600BF8037 /* AppDelegate.m */; };
+		D7BAAC8526A770E600BF8037 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BAAC8426A770E600BF8037 /* ViewController.m */; };
+		D7BAAC8826A770E600BF8037 /* Prova_Icons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7BAAC8626A770E600BF8037 /* Prova_Icons.xcdatamodeld */; };
+		D7BAAC8A26A770E700BF8037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BAAC8926A770E700BF8037 /* Assets.xcassets */; };
+		D7BAAC8D26A770E700BF8037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BAAC8B26A770E700BF8037 /* Main.storyboard */; };
+		D7BAAC9026A770E700BF8037 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BAAC8F26A770E700BF8037 /* main.m */; };
+		D7BAAC9B26A770E800BF8037 /* Prova_IconsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BAAC9A26A770E800BF8037 /* Prova_IconsTests.m */; };
+		D7BAACA626A770E800BF8037 /* Prova_IconsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BAACA526A770E800BF8037 /* Prova_IconsUITests.m */; };
+		D7BAACB726A771CB00BF8037 /* macOS Icon Gallery.html in Resources */ = {isa = PBXBuildFile; fileRef = D7BAACB626A771CA00BF8037 /* macOS Icon Gallery.html */; };
+		D7BAACBA26A77ABC00BF8037 /* GridWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BAACB926A77ABC00BF8037 /* GridWindow.xib */; };
+		D7BAACBE26A77AD400BF8037 /* GridWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAACBC26A77AD300BF8037 /* GridWindowController.swift */; };
+		D7BAACBF26A77AD400BF8037 /* InsetItemsGridWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAACBD26A77AD300BF8037 /* InsetItemsGridWindowController.swift */; };
+		D7BAACC126A77B2A00BF8037 /* TextItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAACC026A77B2A00BF8037 /* TextItem.swift */; };
+		D7BAACC326A77C5500BF8037 /* TextItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BAACC226A77C5500BF8037 /* TextItem.xib */; };
+		D7BAACC526A77C9B00BF8037 /* ImageItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7BAACC426A77C9B00BF8037 /* ImageItem.xib */; };
+		D7BAACC726A77CAC00BF8037 /* ImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BAACC626A77CAC00BF8037 /* ImageItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7BAAC9726A770E800BF8037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BAAC7526A770E600BF8037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BAAC7C26A770E600BF8037;
+			remoteInfo = "Prova Icons";
+		};
+		D7BAACA226A770E800BF8037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7BAAC7526A770E600BF8037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7BAAC7C26A770E600BF8037;
+			remoteInfo = "Prova Icons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D76A7F0626A903B100102AFE /* ViewController+Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+Utilities.h"; sourceTree = "<group>"; };
+		D76A7F0726A903B100102AFE /* ViewController+Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Utilities.m"; sourceTree = "<group>"; };
+		D7BAAC7D26A770E600BF8037 /* Prova Icons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prova Icons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BAAC8026A770E600BF8037 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7BAAC8126A770E600BF8037 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7BAAC8326A770E600BF8037 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7BAAC8426A770E600BF8037 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7BAAC8726A770E600BF8037 /* Prova_Icons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prova_Icons.xcdatamodel; sourceTree = "<group>"; };
+		D7BAAC8926A770E700BF8037 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7BAAC8C26A770E700BF8037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7BAAC8E26A770E700BF8037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BAAC8F26A770E700BF8037 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7BAAC9126A770E700BF8037 /* Prova_Icons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prova_Icons.entitlements; sourceTree = "<group>"; };
+		D7BAAC9626A770E700BF8037 /* Prova IconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prova IconsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BAAC9A26A770E800BF8037 /* Prova_IconsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prova_IconsTests.m; sourceTree = "<group>"; };
+		D7BAAC9C26A770E800BF8037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BAACA126A770E800BF8037 /* Prova IconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prova IconsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7BAACA526A770E800BF8037 /* Prova_IconsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prova_IconsUITests.m; sourceTree = "<group>"; };
+		D7BAACA726A770E800BF8037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BAACB626A771CA00BF8037 /* macOS Icon Gallery.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "macOS Icon Gallery.html"; sourceTree = "<group>"; };
+		D7BAACB926A77ABC00BF8037 /* GridWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridWindow.xib; sourceTree = "<group>"; };
+		D7BAACBB26A77AD300BF8037 /* Prova Icons-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prova Icons-Bridging-Header.h"; sourceTree = "<group>"; };
+		D7BAACBC26A77AD300BF8037 /* GridWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridWindowController.swift; sourceTree = "<group>"; };
+		D7BAACBD26A77AD300BF8037 /* InsetItemsGridWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsetItemsGridWindowController.swift; sourceTree = "<group>"; };
+		D7BAACC026A77B2A00BF8037 /* TextItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextItem.swift; sourceTree = "<group>"; };
+		D7BAACC226A77C5500BF8037 /* TextItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextItem.xib; sourceTree = "<group>"; };
+		D7BAACC426A77C9B00BF8037 /* ImageItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageItem.xib; sourceTree = "<group>"; };
+		D7BAACC626A77CAC00BF8037 /* ImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7BAAC7A26A770E600BF8037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BAAC9326A770E700BF8037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BAAC9E26A770E800BF8037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7BAAC7426A770E600BF8037 = {
+			isa = PBXGroup;
+			children = (
+				D7BAAC7F26A770E600BF8037 /* Prova Icons */,
+				D7BAAC9926A770E800BF8037 /* Prova IconsTests */,
+				D7BAACA426A770E800BF8037 /* Prova IconsUITests */,
+				D7BAAC7E26A770E600BF8037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BAAC7E26A770E600BF8037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7BAAC7D26A770E600BF8037 /* Prova Icons.app */,
+				D7BAAC9626A770E700BF8037 /* Prova IconsTests.xctest */,
+				D7BAACA126A770E800BF8037 /* Prova IconsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7BAAC7F26A770E600BF8037 /* Prova Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D7BAAC8026A770E600BF8037 /* AppDelegate.h */,
+				D7BAAC8126A770E600BF8037 /* AppDelegate.m */,
+				D7BAAC8326A770E600BF8037 /* ViewController.h */,
+				D7BAAC8426A770E600BF8037 /* ViewController.m */,
+				D76A7F0626A903B100102AFE /* ViewController+Utilities.h */,
+				D76A7F0726A903B100102AFE /* ViewController+Utilities.m */,
+				D7BAACB626A771CA00BF8037 /* macOS Icon Gallery.html */,
+				D7BAAC8926A770E700BF8037 /* Assets.xcassets */,
+				D7BAAC8B26A770E700BF8037 /* Main.storyboard */,
+				D7BAACBC26A77AD300BF8037 /* GridWindowController.swift */,
+				D7BAACBD26A77AD300BF8037 /* InsetItemsGridWindowController.swift */,
+				D7BAACB926A77ABC00BF8037 /* GridWindow.xib */,
+				D7BAACC226A77C5500BF8037 /* TextItem.xib */,
+				D7BAACC426A77C9B00BF8037 /* ImageItem.xib */,
+				D7BAACC026A77B2A00BF8037 /* TextItem.swift */,
+				D7BAACC626A77CAC00BF8037 /* ImageItem.swift */,
+				D7BAAC8E26A770E700BF8037 /* Info.plist */,
+				D7BAAC8F26A770E700BF8037 /* main.m */,
+				D7BAAC9126A770E700BF8037 /* Prova_Icons.entitlements */,
+				D7BAAC8626A770E600BF8037 /* Prova_Icons.xcdatamodeld */,
+				D7BAACBB26A77AD300BF8037 /* Prova Icons-Bridging-Header.h */,
+			);
+			path = "Prova Icons";
+			sourceTree = "<group>";
+		};
+		D7BAAC9926A770E800BF8037 /* Prova IconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7BAAC9A26A770E800BF8037 /* Prova_IconsTests.m */,
+				D7BAAC9C26A770E800BF8037 /* Info.plist */,
+			);
+			path = "Prova IconsTests";
+			sourceTree = "<group>";
+		};
+		D7BAACA426A770E800BF8037 /* Prova IconsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7BAACA526A770E800BF8037 /* Prova_IconsUITests.m */,
+				D7BAACA726A770E800BF8037 /* Info.plist */,
+			);
+			path = "Prova IconsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7BAAC7C26A770E600BF8037 /* Prova Icons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BAACAA26A770E800BF8037 /* Build configuration list for PBXNativeTarget "Prova Icons" */;
+			buildPhases = (
+				D7BAAC7926A770E600BF8037 /* Sources */,
+				D7BAAC7A26A770E600BF8037 /* Frameworks */,
+				D7BAAC7B26A770E600BF8037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prova Icons";
+			productName = "Prova Icons";
+			productReference = D7BAAC7D26A770E600BF8037 /* Prova Icons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7BAAC9526A770E700BF8037 /* Prova IconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BAACAD26A770E800BF8037 /* Build configuration list for PBXNativeTarget "Prova IconsTests" */;
+			buildPhases = (
+				D7BAAC9226A770E700BF8037 /* Sources */,
+				D7BAAC9326A770E700BF8037 /* Frameworks */,
+				D7BAAC9426A770E700BF8037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7BAAC9826A770E800BF8037 /* PBXTargetDependency */,
+			);
+			name = "Prova IconsTests";
+			productName = "Prova IconsTests";
+			productReference = D7BAAC9626A770E700BF8037 /* Prova IconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7BAACA026A770E800BF8037 /* Prova IconsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7BAACB026A770E800BF8037 /* Build configuration list for PBXNativeTarget "Prova IconsUITests" */;
+			buildPhases = (
+				D7BAAC9D26A770E800BF8037 /* Sources */,
+				D7BAAC9E26A770E800BF8037 /* Frameworks */,
+				D7BAAC9F26A770E800BF8037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7BAACA326A770E800BF8037 /* PBXTargetDependency */,
+			);
+			name = "Prova IconsUITests";
+			productName = "Prova IconsUITests";
+			productReference = D7BAACA126A770E800BF8037 /* Prova IconsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7BAAC7526A770E600BF8037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D7BAAC7C26A770E600BF8037 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					D7BAAC9526A770E700BF8037 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D7BAAC7C26A770E600BF8037;
+					};
+					D7BAACA026A770E800BF8037 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = D7BAAC7C26A770E600BF8037;
+					};
+				};
+			};
+			buildConfigurationList = D7BAAC7826A770E600BF8037 /* Build configuration list for PBXProject "Prova Icons" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7BAAC7426A770E600BF8037;
+			productRefGroup = D7BAAC7E26A770E600BF8037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7BAAC7C26A770E600BF8037 /* Prova Icons */,
+				D7BAAC9526A770E700BF8037 /* Prova IconsTests */,
+				D7BAACA026A770E800BF8037 /* Prova IconsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7BAAC7B26A770E600BF8037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BAACC526A77C9B00BF8037 /* ImageItem.xib in Resources */,
+				D7BAACB726A771CB00BF8037 /* macOS Icon Gallery.html in Resources */,
+				D7BAACC326A77C5500BF8037 /* TextItem.xib in Resources */,
+				D7BAACBA26A77ABC00BF8037 /* GridWindow.xib in Resources */,
+				D7BAAC8A26A770E700BF8037 /* Assets.xcassets in Resources */,
+				D7BAAC8D26A770E700BF8037 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BAAC9426A770E700BF8037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BAAC9F26A770E800BF8037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7BAAC7926A770E600BF8037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BAACC726A77CAC00BF8037 /* ImageItem.swift in Sources */,
+				D7BAACBF26A77AD400BF8037 /* InsetItemsGridWindowController.swift in Sources */,
+				D76A7F0826A903B100102AFE /* ViewController+Utilities.m in Sources */,
+				D7BAACBE26A77AD400BF8037 /* GridWindowController.swift in Sources */,
+				D7BAAC8526A770E600BF8037 /* ViewController.m in Sources */,
+				D7BAAC8826A770E600BF8037 /* Prova_Icons.xcdatamodeld in Sources */,
+				D7BAACC126A77B2A00BF8037 /* TextItem.swift in Sources */,
+				D7BAAC9026A770E700BF8037 /* main.m in Sources */,
+				D7BAAC8226A770E600BF8037 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BAAC9226A770E700BF8037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BAAC9B26A770E800BF8037 /* Prova_IconsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7BAAC9D26A770E800BF8037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BAACA626A770E800BF8037 /* Prova_IconsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7BAAC9826A770E800BF8037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7BAAC7C26A770E600BF8037 /* Prova Icons */;
+			targetProxy = D7BAAC9726A770E800BF8037 /* PBXContainerItemProxy */;
+		};
+		D7BAACA326A770E800BF8037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7BAAC7C26A770E600BF8037 /* Prova Icons */;
+			targetProxy = D7BAACA226A770E800BF8037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7BAAC8B26A770E700BF8037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7BAAC8C26A770E700BF8037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7BAACA826A770E800BF8037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D7BAACA926A770E800BF8037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7BAACAB26A770E800BF8037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Prova Icons/Prova_Icons.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Prova Icons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Icons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Prova Icons/Prova Icons-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D7BAACAC26A770E800BF8037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Prova Icons/Prova_Icons.entitlements";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Prova Icons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-Icons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Prova Icons/Prova Icons-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D7BAACAE26A770E800BF8037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova IconsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-IconsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prova Icons.app/Contents/MacOS/Prova Icons";
+			};
+			name = Debug;
+		};
+		D7BAACAF26A770E800BF8037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova IconsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-IconsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prova Icons.app/Contents/MacOS/Prova Icons";
+			};
+			name = Release;
+		};
+		D7BAACB126A770E800BF8037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova IconsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-IconsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Prova Icons";
+			};
+			name = Debug;
+		};
+		D7BAACB226A770E800BF8037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 65G6AG8SA4;
+				INFOPLIST_FILE = "Prova IconsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonsotesauro.Prova-IconsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Prova Icons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7BAAC7826A770E600BF8037 /* Build configuration list for PBXProject "Prova Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BAACA826A770E800BF8037 /* Debug */,
+				D7BAACA926A770E800BF8037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BAACAA26A770E800BF8037 /* Build configuration list for PBXNativeTarget "Prova Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BAACAB26A770E800BF8037 /* Debug */,
+				D7BAACAC26A770E800BF8037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BAACAD26A770E800BF8037 /* Build configuration list for PBXNativeTarget "Prova IconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BAACAE26A770E800BF8037 /* Debug */,
+				D7BAACAF26A770E800BF8037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7BAACB026A770E800BF8037 /* Build configuration list for PBXNativeTarget "Prova IconsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7BAACB126A770E800BF8037 /* Debug */,
+				D7BAACB226A770E800BF8037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7BAAC8626A770E600BF8037 /* Prova_Icons.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7BAAC8726A770E600BF8037 /* Prova_Icons.xcdatamodel */,
+			);
+			currentVersion = D7BAAC8726A770E600BF8037 /* Prova_Icons.xcdatamodel */;
+			path = Prova_Icons.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7BAAC7526A770E600BF8037 /* Project object */;
+}
